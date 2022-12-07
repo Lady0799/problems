@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+            int  number = scanner.nextInt();
+            int fact = 1;
+            int count =1;
+            //your code goes here
+            while(count<=number){
+                fact =  fact*count;
+                ++count;
+            }
+            System.out.println(fact);
+    }
+}
